@@ -1,0 +1,38 @@
+.card {
+  padding: 16px;
+}
+.card img {
+  border-radius: 3.77917px;
+  width: 258px;
+  height: 216px;
+}
+
+.gradient-wrapper {
+  background-image: url("../../assets/images/freams/castbox.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+  backdrop-filter: blur(3.77917px);
+  width: 290px;
+  height: 296px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 7px;
+  }
+  .card img {
+    border-radius: 3.77917px;
+    width: 119.41px;
+    height: 99.97px;
+  }
+  .gradient-wrapper {
+    background-image: url("../../assets/images/freams/castbox.svg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+    backdrop-filter: blur(3.77917px);
+    width: 134.22px;
+    height: 137px;
+  }
+}

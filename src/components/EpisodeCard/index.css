@@ -1,0 +1,28 @@
+.ep_card {
+  padding: 20px 24px;
+}
+
+.ep_gradient-wrapper {
+  background-image: url("../../assets/images/freams/epibox.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: contain;
+  width: 360px;
+  height: 96px;
+  backdrop-filter: blur(3.77917px);
+}
+
+@media (max-width: 768px) {
+  .ep_card {
+    padding: 7px;
+  }
+  .ep_gradient-wrapper {
+    background-image: url("../../assets/images/freams/epibox.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+    width: 151.99px;
+    height: 40.53px;
+    backdrop-filter: blur(3.77917px);
+  }
+}

@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-DemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTTravels";
+  src: url("./assets/fonts/TTTravels-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+body {
+  font-family: "TTTravels";
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.home {
+  background-image: url("./assets/images/home/backgrounds/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.swiper-button-disabled {
+  display: none;
+}
+
+.gradient-border {
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #14d9e6, #9dfe00) 1;
+  background: rgba(255, 255, 255, 0.05);
+}
