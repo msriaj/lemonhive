@@ -55,8 +55,8 @@ export const LocationSlider = () => {
             },
           }}
           navigation={{
-            nextEl: ".next-button-ep",
-            prevEl: ".prev-button-ep",
+            nextEl: ".next-button-lc",
+            prevEl: ".prev-button-lc",
           }}
         >
           {data.map((info) => (
@@ -65,7 +65,7 @@ export const LocationSlider = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="next-button-ep absolute z-10 rounded-full bg-white p-3 md:p-5 top-0 md:top-4 right-0 -mr-8 cursor-pointer">
+        <div className="next-button-lc absolute z-10 rounded-full bg-white p-3 md:p-5 top-0 md:top-4 right-0 -mr-8 cursor-pointer">
           <svg
             width="12"
             height="17"
@@ -79,7 +79,7 @@ export const LocationSlider = () => {
             />
           </svg>
         </div>
-        <div className="prev-button-ep absolute left-0 top-0 md:top-4 z-10 rounded-full bg-white p-3 md:p-5 disabled:hidden  -ml-8  cursor-pointer">
+        <div className="prev-button-lc absolute left-0 top-0 md:top-4 z-10 rounded-full bg-white p-3 md:p-5 disabled:hidden  -ml-8  cursor-pointer">
           <svg
             width="12"
             height="17"

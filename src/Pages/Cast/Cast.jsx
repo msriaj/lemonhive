@@ -21,7 +21,7 @@ export const Cast = () => {
       <img src={star} alt="" className="fixed bottom-0 z-10 left-10" />
       <div className="flex justify-center">
         <Link to="/">
-          <img className="w-[227px] h-12 " src={logo} />
+          <img className="w-[227px] h-12  pb-6 md:pb-16" src={logo} />
         </Link>
       </div>
       <div className="flex justify-between mb-7">

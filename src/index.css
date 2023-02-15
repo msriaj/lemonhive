@@ -139,3 +139,26 @@ body {
   border-image: linear-gradient(to right, #14d9e6, #9dfe00) 1;
   background: rgba(255, 255, 255, 0.05);
 }
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #14d9e6 #9dfe00;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  /* background: #9dfe00; */
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #14d9e6;
+  border-radius: 14px;
+
+  margin: 5px;
+}
